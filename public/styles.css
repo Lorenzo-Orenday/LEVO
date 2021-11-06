@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(243, 236, 236);
+}
+
+.main-container{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    box-sizing: border-box;
+    border: solid rgb(230, 225, 225) 1px;
+}
+
+.slogan_picture{       
+    flex: 1;
+    background-image:url(../images/slogan_picture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 250px;   
+}
+
+.slogan_logo{    
+    flex: 1;
+    background-image:url(../images/slogan_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 250px;  
+}
+
+.second_container{
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+.icon_1, .icon_2, .icon_3{
+    flex: 1;
+}
+
+.title{
+    font-weight: bold;
+}
+
+
+.third_container{      
+    text-align: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+
+footer{
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: whitesmoke;
+}
+
+footer a, footer p{
+    padding: 5px;
+    font-size: 90%;
+}
+
+footer .col1, .col2{
+    flex: 1;
+    padding: 5px;
+}
+
+
+/************************************* M E D I A   Q U E R Y *************************************/
+
+@media only screen and (max-width: 600px) {
+  
+    *{
+        width:350px;
+    }
+
+    .main-container{
+        width:350px;
+        height: 150px;
+        display: block;
+        background-image:url(../images/slogan_logo.png);
+        background-size: cover;
+        margin-right: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slogan_logo, .slogan_picture{
+        visibility: hidden;
+    }
+
+
+    .second_container{
+        display: block;
+        width:350px;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+
+    .third_container{       
+        width:350px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;      
+    }
+
+    .third_container h1{
+        padding: 30px;
+    }
+
+    .third_container p{
+        padding: 30px;
+        text-align: justify;
+    }
+
+    footer{
+        display: block;
+    }
+}
+    
