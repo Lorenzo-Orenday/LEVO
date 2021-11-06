@@ -7,61 +7,66 @@ body{
     background-color: rgb(243, 236, 236);
 }
 
-.main-container{
+.wrapper{
+    top: 0;
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+}
+
+.main-container, .second_container{
     display: flex;
+}
+.main-container, .second_container, .third_container{    
     text-align: center;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    width: 1200px;
     box-sizing: border-box;
-    border: solid rgb(230, 225, 225) 1px;
 }
 
-.slogan_picture{       
+.slogan_picture, .slogan_logo{
     flex: 1;
-    background-image:url(../images/slogan_picture.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    height: 250px;   
+    height: 250px; 
+}
+.slogan_picture{      
+    background-image:url(../images/slogan_picture.png);
 }
 
 .slogan_logo{    
-    flex: 1;
     background-image:url(../images/slogan_logo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 250px;  
-}
-
-.second_container{
-    display: flex;
-    text-align: center;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px;
-    box-sizing: border-box;
 }
 
 .icon_1, .icon_2, .icon_3{
     flex: 1;
 }
 
-.title{
+.titles{
     font-weight: bold;
 }
 
-
-.third_container{      
-    text-align: center;
-    margin-top: 40px;
+hr{
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
-    box-sizing: border-box;
+    justify-content: center;
+    width: 900px; 
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.submit-form{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
 }
 
 
