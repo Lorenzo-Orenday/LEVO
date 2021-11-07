@@ -22,7 +22,7 @@ body{
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    width: 1000px;
     box-sizing: border-box;
 }
 
@@ -66,7 +66,7 @@ hr{
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
-    width: 1100px;
+    width: 900px;
 }
 
 
@@ -89,6 +89,42 @@ footer .col1, .col2{
     padding: 5px;
 }
 
+/************************************* TABS *************************************/
+
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 25px;
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    padding: 25px;
+    background: #e2e2e2;
+    font-weight: bold;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    order: 1;
+    display: none;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #fff;
+}
 
 /************************************* M E D I A   Q U E R Y *************************************/
 

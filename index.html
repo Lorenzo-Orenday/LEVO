@@ -21,7 +21,7 @@
         <!-- Optional JavaScript -->    
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
-        <div class="wrapper">
+        <div class="wrapper"> <!-- Menu nav-bar -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
                 <div class="container-fluid">
@@ -51,17 +51,17 @@
             </nav>
         </div>
         <!-- End wrapper -->
-
+        
         <br><br>
 
-        <div class="main-container" >   
+        <div class="main-container" >  <!-- Logo and picture --> 
             <div class="slogan_picture"></div>       
             <div class="slogan_logo"></div>
         </div>         
         
         <br>
-
-        <div class="second_container">
+        
+        <div class="second_container">  <!-- Icons -->
             <div style="padding: 3px;" class="icon_1"><a href=""></a> <i style="font-size: 30px;" class="fa fa-user-plus" aria-hidden="true"></i>    <br> <p><span class="titles">Customized attention</span> <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero quas obcaecati labore quisquam ullam.</p></div>
             <div style="padding: 3px;" class="icon_1"><a href=""></a> <i style="font-size: 30px;" class="fas fa-file-alt"></i>                       <br> <p><span class="titles">Training material</span> <br> Amet consectetur adipisicing elit. Libero quas obcaecati labore quisquam ullam.</p></div>
             <div style="padding: 3px;" class="icon_1"><a href=""></a> <i style="font-size: 30px;" class="fas fa-users"></i>                          <br> <p><span class="titles">Suitable for your company</span> <br> Lorem, ipsum dolor sit amlit. Libero quas obcaecati labore quisquam ullam.</p></div>
@@ -70,8 +70,7 @@
 
         <br>
         
-
-        <div class="third_container">
+        <div class="third_container"> <!-- Miscellaneous text -->
             <h1>Lorem ipsum dolor sit amet</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe vel amet delectus numquam ullam ut tempora alias ratione! Reiciendis voluptate error expedita, molestias in laboriosam doloribus modi odit fugit veniam.</p>
             <br>
@@ -81,11 +80,39 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Et saepe quo ullam quidem, perspiciatis, quae culpa explicabo sed eos ad ipsum? Voluptate autem dolorem molestias porro ratione itaque amet aliquam?
             </p>
         </div>
+        
+        <hr class="divider" id="about">
+       
 
-    
+        <div class="mytabs"> <!-- Tabs with options -->
+            <input type="radio" id="tabfree" name="mytabs" checked="checked">
+            <label for="tabfree">First option</label>
+            <div class="tab">
+              <h2>Free</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        
+            <input type="radio" id="tabsilver" name="mytabs">
+            <label for="tabsilver">Second option</label>
+            <div class="tab">
+              <h2>Silver</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+        
+            <input type="radio" id="tabgold" name="mytabs">
+            <label for="tabgold">Third option</label>
+            <div class="tab">
+              <h2>Gold</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+        
+        </div>
+        <!-- End mytabs -->
 
-        <hr class="divider">
-    
+        <hr class="divider" id="contact">
+        <br>
+        
         <div id="submit-form" class="submit-form">
             <h3 style="margin-bottom: 25px;">Want to be in touch with us? Send us a message here!</h3>
             
@@ -105,6 +132,7 @@
             <button name="enviar" id="enviar" class="btn btn-dark">Send</button>
             </form>
         </div>
+        <!-- End submit-form -->
 
     </body>
 
